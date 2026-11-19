@@ -1,0 +1,49 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="oVKX_YTBYSLoxWRwv6sO">
+    <mxGraphModel dx="963" dy="602" grid="1" gridSize="13" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="light-dark(#FFFFFF,#FFFFFF)" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="d65aMxIDDrFxl9dPDwbH-16" edge="1" parent="1" source="d65aMxIDDrFxl9dPDwbH-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;flowAnimation=0;sketch=0;shadow=0;startArrow=none;startFill=0;strokeColor=light-dark(#000000,#555555);endArrow=classic;endFill=1;strokeWidth=1.5;fontColor=light-dark(#000000,#555555);" target="d65aMxIDDrFxl9dPDwbH-3" value="&lt;code&gt;HTTPS / JSON&lt;/code&gt;">
+          <mxGeometry relative="1" x="-0.2" y="55" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d65aMxIDDrFxl9dPDwbH-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#F5F2FC);strokeColor=light-dark(#000000,#5B3CC4);strokeWidth=1.5;roundedPerimeter=1;align=center;fontColor=light-dark(#000000,#35245C);" value="&lt;pre dir=&quot;ltr&quot;&gt;Student&#39;s Browser&lt;br&gt;React + TypeScript&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="70" width="240" x="292.75" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="d65aMxIDDrFxl9dPDwbH-8" edge="1" parent="1" source="d65aMxIDDrFxl9dPDwbH-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="533" y="259" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d65aMxIDDrFxl9dPDwbH-22" connectable="0" parent="d65aMxIDDrFxl9dPDwbH-8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=fontFamily,fontSize,fontStyle,textOpacity,labelBorderColor,labelBorderWidth,labelBackgroundColor,defaultLabelBackgroundColor,labelPadding;defaultLabelBackgroundColor=page;labelPadding=0 4;fontColor=light-dark(#000000,#555555);" value="&lt;code&gt;SQL&lt;/code&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.8195" y="1" as="geometry">
+            <mxPoint x="13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d65aMxIDDrFxl9dPDwbH-20" edge="1" parent="1" source="d65aMxIDDrFxl9dPDwbH-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.451;entryY=0.028;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;strokeColor=light-dark(#000000,#555555);strokeWidth=1.5;" target="d65aMxIDDrFxl9dPDwbH-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d65aMxIDDrFxl9dPDwbH-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=light-dark(#FFFFFF,#F5F2FC);strokeColor=light-dark(#000000,#5B3CC4);strokeWidth=1.5;fontColor=light-dark(#000000,#35245C);fontSize=14;align=center;" value="" vertex="1">
+          <mxGeometry height="158" width="316" x="240" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="d65aMxIDDrFxl9dPDwbH-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;fontColor=light-dark(#000000,#35245C);" value="&lt;code&gt;FastAPI Backend&lt;/code&gt;" vertex="1">
+          <mxGeometry height="26" width="130" x="347.75" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="d65aMxIDDrFxl9dPDwbH-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=light-dark(#FFFFFF,#FFFFFF);strokeColor=light-dark(#000000,#9D8CC9);fontColor=light-dark(#000000,#35245C);" value="&lt;div&gt;API Routes&lt;/div&gt;&lt;div&gt;Profiles / Matches&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="135" x="250" y="206" as="geometry" />
+        </mxCell>
+        <mxCell id="d65aMxIDDrFxl9dPDwbH-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=light-dark(#FFFFFF,#FFFFFF);strokeColor=light-dark(#000000,#9D8CC9);fontColor=light-dark(#000000,#35245C);" value="&lt;div&gt;Authentication&lt;/div&gt;&lt;div&gt;User Sessions&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="135" x="397.75" y="206" as="geometry" />
+        </mxCell>
+        <mxCell id="d65aMxIDDrFxl9dPDwbH-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=light-dark(#FFFFFF,#FFFFFF);strokeColor=light-dark(#000000,#9D8CC9);fontColor=light-dark(#000000,#35245C);" value="&lt;code&gt;Compatibility Algorithm&lt;/code&gt;" vertex="1">
+          <mxGeometry height="50" width="151.5" x="325" y="273" as="geometry" />
+        </mxCell>
+        <mxCell id="d65aMxIDDrFxl9dPDwbH-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=light-dark(#FFFFFF,#E9F0ED);strokeColor=light-dark(#000000,#648D7A);strokeWidth=1.5;fontColor=light-dark(#000000,#254F3C);" value="&lt;div&gt;PostgreSQL Database&lt;/div&gt;&lt;div&gt;Users / Profiles / Preferences&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="260" x="282.75" y="377" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
