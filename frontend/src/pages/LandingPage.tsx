@@ -1,47 +1,67 @@
+import { Link } from 'react-router-dom'
 import Navbar from '../components/Navbar'
-import Input from '../components/Input'
-import Button from '../components/Button'
+import MatchPreview from '../components/MatchPreview'
+import HowItWorks from '../components/HowItWorks'
+import WhyRoommateAdapt from '../components/WhyRoommateAdapt'
+import Footer from '../components/Footer'
 
 function LandingPage() {
   return (
     <div className="min-h-screen bg-surface">
       <Navbar />
 
-      <main className="mx-auto max-w-md px-6 py-16">
-        <h1 className="mb-8 text-2xl font-semibold">
-          Input Component Test
-        </h1>
+      <main>
+        <section className="bg-[#F8F7FB]">
+          <div className="mx-auto grid max-w-[1264px] items-center gap-10 px-5 py-10 sm:px-6 sm:py-16 lg:grid-cols-2 lg:gap-16 lg:py-24">
 
-        <div className="flex flex-col gap-6">
-          <Input
-            label="Full name"
-            placeholder="Enter your full name"
-          />
+            {/* Hero content */}
+            <div>
+              <p className="mb-6 text-xs font-semibold uppercase tracking-wide text-brand">
+                Roommate matching for students
+              </p>
 
-          <Input
-            label="University email"
-            type="email"
-            placeholder="student@university.edu"
-          />
+              <h1 className="max-w-[600px] text-4xl font-semibold leading-tight tracking-tight text-ink sm:text-5xl lg:text-[52px]">
+                Find a roommate who fits your life.
+              </h1>
 
-          <Input
-            label="Password"
-            type="password"
-            defaultValue="1234"
-            error="Password must contain at least 8 characters."
-          />
+              <p className="mt-6 max-w-xl text-lg leading-relaxed text-muted">
+                Shared spaces work better when expectations align.
+                Discover compatible roommates based on your
+                lifestyle and living preferences.
+              </p>
 
-          <Input
-            label="University"
-            defaultValue="Philander Smith University"
-            disabled
-          />
+              <div className="mt-6 flex flex-wrap items-center gap-3">
+                <Link
+                  to="/signup"
+                  className="rounded-lg bg-brand px-6 py-3.5 text-sm font-semibold text-white transition-colors hover:bg-brand-hover"
+                >
+                  Find my match
+                </Link>
 
-          <Button className="w-full">
-            Continue
-          </Button>
-        </div>
+                <a
+                  href="#how-it-works"
+                  className="rounded-lg border border-border bg-white px-6 py-3.5 text-sm font-semibold text-ink transition-colors hover:bg-gray-50"
+                >
+                  See how it works
+                </a>
+              </div>
+
+              <p className="mt-6 text-sm text-muted">
+                Thoughtful matching. Better living together.
+              </p>
+            </div>
+
+            {/* Match preview */}
+            <div className="flex justify-center">
+              <MatchPreview />
+            </div>
+
+          </div>
+        </section>
+        <HowItWorks />
+        <WhyRoommateAdapt />
       </main>
+      <Footer />
     </div>
   )
 }
